@@ -1,0 +1,1025 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/* line 1, scss/style.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 7, scss/style.scss */
+html {
+  font-family: "Roboto Slab", sans-serif;
+}
+
+/* line 11, scss/style.scss */
+header {
+  min-width: 1024px;
+  margin: 0 auto;
+  background: url(images/bg-header.png) center top repeat;
+  background-size: cover;
+}
+/* line 17, scss/style.scss */
+header .uk-container-center.uk-clearfix {
+  min-width: 1024px;
+}
+/* line 19, scss/style.scss */
+header .uk-container-center.uk-clearfix .uk-container-center {
+  border-bottom: 1px solid #e6e6e6;
+  margin-top: 70px;
+  margin-bottom: 27px;
+  z-index: 1;
+  width: 1024px;
+}
+/* line 26, scss/style.scss */
+header .uk-container-center.uk-clearfix .aktiv {
+  background-color: #fff;
+  border-radius: 0 39px 39px 0;
+  width: calc(50% - 262px);
+  min-width: 262px;
+  height: 80px;
+  float: left;
+  position: absolute;
+  z-index: 2;
+}
+/* line 35, scss/style.scss */
+header .uk-container-center.uk-clearfix .aktiv img {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 49px;
+  float: right;
+}
+/* line 43, scss/style.scss */
+header .uk-container-center.uk-clearfix .uk-h1 {
+  margin: 0;
+  font: 300 50px/64px Roboto Slab;
+  color: #fff;
+}
+/* line 44, scss/style.scss */
+header .uk-container-center.uk-clearfix .uk-h1 span {
+  color: #fff;
+  font: 700 50px/64px Roboto Slab;
+  margin: 0;
+}
+/* line 53, scss/style.scss */
+header .uk-container-center.uk-clearfix .uk-h3 {
+  margin-top: 2px;
+  margin-bottom: 67px;
+  color: #e0e0e0;
+  font: 300 20px/30px Roboto Slab;
+}
+/* line 59, scss/style.scss */
+header .uk-container-center.uk-clearfix a.uk-button {
+  background: #ff7e00;
+  color: #ffffff;
+  font: 400 20px/64px PTSans;
+  height: 60px;
+  width: 288px;
+  border-radius: 28px;
+  border: 0px;
+  margin-bottom: 53px;
+  margin-top: 18px;
+}
+/* line 69, scss/style.scss */
+header .uk-container-center.uk-clearfix a.uk-button span {
+  position: relative;
+  top: -3px;
+}
+/* line 74, scss/style.scss */
+header .uk-container-center.uk-clearfix img.uk-align-center {
+  margin-bottom: 0;
+}
+
+/* line 80, scss/style.scss */
+#slide-excel {
+  min-width: 1024px;
+}
+/* line 82, scss/style.scss */
+#slide-excel .uk-text-center {
+  min-width: 1024px;
+  height: 493px;
+  background: url(images/bg-slide.png) no-repeat top center #f4f4f4;
+}
+/* line 86, scss/style.scss */
+#slide-excel .uk-text-center p {
+  padding-top: 65px;
+  color: #333;
+  font: 300 16px/22px Roboto Slab;
+}
+/* line 91, scss/style.scss */
+#slide-excel .uk-text-center img {
+  min-width: 1024px;
+  max-width: 1680px;
+}
+/* line 96, scss/style.scss */
+#slide-excel .green {
+  background-color: #1d7044;
+  position: relative;
+  width: 464px;
+  height: 171px;
+  left: 277px;
+  margin: 0 auto;
+  border-radius: 16px 0 16px 0;
+}
+/* line 104, scss/style.scss */
+#slide-excel .green:before {
+  border: 20px solid transparent;
+  border-bottom: 30px solid #1d7044;
+  content: '';
+  position: absolute;
+  top: 121px;
+  left: -18px;
+}
+/* line 112, scss/style.scss */
+#slide-excel .green span {
+  color: #fff;
+  font: 300 24px/34px Roboto Slab;
+  padding-top: 30px;
+  display: block;
+}
+/* line 118, scss/style.scss */
+#slide-excel .green span.bold {
+  padding-top: 0px;
+  color: #fff;
+  font: 700 36px/42px Roboto Slab;
+}
+
+/* line 126, scss/style.scss */
+#course {
+  background: url(images/bg-course.png) center center no-repeat;
+  background-size: cover;
+  height: 670px;
+}
+/* line 130, scss/style.scss */
+#course .uk-container-center {
+  max-width: 1024px;
+}
+/* line 132, scss/style.scss */
+#course .uk-container-center .uk-container {
+  width: 512px;
+}
+/* line 134, scss/style.scss */
+#course .uk-container-center .uk-container .uk-h1 {
+  padding-top: 94px;
+  color: #333;
+  font: 400 36px/22px Roboto Slab;
+  margin-bottom: 74px;
+}
+/* line 140, scss/style.scss */
+#course .uk-container-center .uk-container ul {
+  padding-left: 0;
+}
+/* line 142, scss/style.scss */
+#course .uk-container-center .uk-container ul li {
+  background: url(images/tick.png) no-repeat 0% 8%;
+  list-style: none;
+  color: #4b4b4b;
+  font: 300 14px/24px Roboto Slab;
+  padding-left: 41px;
+  margin-bottom: 25px;
+}
+/* line 149, scss/style.scss */
+#course .uk-container-center .uk-container ul li span {
+  color: #4b4b4b;
+  font: 700 14px/24px Roboto Slab;
+}
+/* line 156, scss/style.scss */
+#course .uk-container-center .green {
+  background-color: #1d7044;
+  position: relative;
+  width: 686px;
+  height: 126px;
+  top: 15px;
+  left: 270px;
+  margin: 0 auto;
+  border-radius: 16px 0 16px 0;
+}
+/* line 165, scss/style.scss */
+#course .uk-container-center .green:before {
+  border: 20px solid transparent;
+  border-right: 30px solid #1d7044;
+  content: '';
+  position: absolute;
+  top: -15px;
+  right: 0;
+}
+/* line 173, scss/style.scss */
+#course .uk-container-center .green span {
+  color: #fff;
+  font: 300 24px/34px Roboto Slab;
+  padding-top: 20px;
+  display: block;
+}
+/* line 179, scss/style.scss */
+#course .uk-container-center .green span.bold {
+  padding-top: 0;
+  color: #fff;
+  font: 700 36px/34px Roboto Slab;
+}
+
+/* line 188, scss/style.scss */
+#price {
+  background-color: #f5f5f5;
+  height: 807px;
+}
+/* line 191, scss/style.scss */
+#price .uk-container {
+  background-color: #f5f5f5;
+  max-width: 1024px;
+}
+/* line 194, scss/style.scss */
+#price .uk-container .uk-grid {
+  background-color: #f5f5f5;
+  position: absolute;
+  height: 400px;
+  width: 1024px;
+  z-index: 1;
+}
+/* line 200, scss/style.scss */
+#price .uk-container .uk-grid .uk-width-1-3 {
+  padding-left: 0;
+  border: 1px solid #1d7044;
+  border-right: 0;
+  height: 400px;
+  width: 339px;
+}
+/* line 206, scss/style.scss */
+#price .uk-container .uk-grid .uk-width-1-3 span.course {
+  border-right: 1px solid #1d7044;
+  border-bottom: 1px solid #1d7044;
+  color: #1d7044;
+  font: 700 22px/30px Roboto Slab;
+  display: block;
+  height: 37px;
+  width: 99px;
+  padding-top: 10px;
+  line-height: 23px;
+}
+/* line 217, scss/style.scss */
+#price .uk-container .uk-grid .uk-width-1-3 .uk-h1 {
+  color: #333;
+  font: 700 20px/30px Roboto Slab;
+  margin-top: 10px;
+}
+/* line 222, scss/style.scss */
+#price .uk-container .uk-grid .uk-width-1-3:last-child {
+  border: 0;
+}
+/* line 226, scss/style.scss */
+#price .uk-container .uk-grid .uk-width-1-3 .inside {
+  border-top: 1px solid #1d7044;
+  width: 196px;
+}
+/* line 229, scss/style.scss */
+#price .uk-container .uk-grid .uk-width-1-3 .inside ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+/* line 232, scss/style.scss */
+#price .uk-container .uk-grid .uk-width-1-3 .inside ul li {
+  float: left;
+  padding-top: 10px;
+  list-style: none;
+  color: #333;
+  font: 300 14px/35.887px Roboto Slab;
+  clear: both;
+}
+/* line 239, scss/style.scss */
+#price .uk-container .uk-grid .uk-width-1-3 .inside ul li img {
+  padding-right: 20px;
+}
+/* line 242, scss/style.scss */
+#price .uk-container .uk-grid .uk-width-1-3 .inside ul li:first-child {
+  padding-top: 20px;
+}
+/* line 247, scss/style.scss */
+#price .uk-container .uk-grid .uk-width-1-3 .inside p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #1d7044;
+  font: 300 30px/35.887px Roboto Slab;
+}
+/* line 253, scss/style.scss */
+#price .uk-container .uk-grid .uk-width-1-3 .inside a.green {
+  width: 144px;
+  height: 42px;
+  background: #1d7044;
+  border-radius: 21px;
+  color: #fff;
+  font: 700 20px/35.887px Roboto Slab;
+}
+/* line 260, scss/style.scss */
+#price .uk-container .uk-grid .uk-width-1-3 .inside a.green span {
+  position: relative;
+  top: 2px;
+}
+/* line 267, scss/style.scss */
+#price .uk-container .uk-grid .best {
+  box-shadow: 0px 0px 15px 0px rgba(29, 112, 68, 0.75);
+  height: 479px;
+  width: 346px;
+  background: url(images/best.png) top right no-repeat white;
+  position: relative;
+  z-index: 5;
+  top: -40px;
+}
+/* line 275, scss/style.scss */
+#price .uk-container .uk-grid .best .uk-h1 {
+  margin-top: 63px;
+  color: #1d7044;
+  font: 300 25.92px/35.887px Roboto Slab;
+}
+/* line 279, scss/style.scss */
+#price .uk-container .uk-grid .best .uk-h1 span.bold {
+  color: #1d7044;
+  font: 700 29.91px/35.887px Roboto Slab;
+}
+/* line 284, scss/style.scss */
+#price .uk-container .uk-grid .best p.through {
+  text-decoration: line-through;
+  color: #333;
+  font: 400 22px/64px Roboto Slab;
+  margin-bottom: 0;
+  height: 52px;
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+/* line 293, scss/style.scss */
+#price .uk-container .uk-grid .best p.bolder {
+  margin-top: 0;
+  color: #1d7044;
+  font: 700 30px/35.887px Roboto Slab;
+  font-weight: 700;
+}
+/* line 299, scss/style.scss */
+#price .uk-container .uk-grid .best p.economy {
+  color: #ff7e00;
+  font: 700 18px/35.887px Ubuntu;
+  width: 251px;
+  position: relative;
+  left: -30px;
+  margin-top: 10px;
+}
+/* line 307, scss/style.scss */
+#price .uk-container .uk-grid .best a.orange {
+  width: 218px;
+  height: 56px;
+  background: #ff7e00;
+  border-radius: 26px;
+  left: -15px;
+  position: relative;
+  color: #fff;
+  font: 700 26px/35.887px Roboto Slab;
+}
+/* line 316, scss/style.scss */
+#price .uk-container .uk-grid .best a.orange span {
+  position: relative;
+  top: 10px;
+}
+/* line 324, scss/style.scss */
+#price .title {
+  color: #333;
+  font: 400 36px/44px Roboto Slab;
+  padding-top: 83px;
+  padding-bottom: 99px;
+}
+/* line 329, scss/style.scss */
+#price .title span {
+  color: #333;
+  font: 700 36px/44px Roboto Slab;
+}
+
+/* line 337, scss/style.scss */
+#program .uk-container {
+  width: 1024px;
+  margin-top: 74px;
+}
+/* line 340, scss/style.scss */
+#program .uk-container p {
+  color: #333;
+  font: 400 36px/24px Roboto Slab;
+  margin-bottom: 35px;
+}
+/* line 345, scss/style.scss */
+#program .uk-container .uk-float-right.uk-width-1-4 {
+  width: 220px;
+}
+/* line 347, scss/style.scss */
+#program .uk-container .uk-float-right.uk-width-1-4 span {
+  position: relative;
+  top: -4px;
+  color: #176d40;
+  font: 400 18px/24px Roboto Slab;
+  float: right;
+}
+/* line 354, scss/style.scss */
+#program .uk-container .uk-float-right.uk-width-1-4 img {
+  padding-bottom: 78px;
+}
+
+/* line 361, scss/style.scss */
+#tab {
+  background: url(images/bg-tab.png);
+  min-height: 645px;
+}
+/* line 364, scss/style.scss */
+#tab ul.uk-tab {
+  border-bottom: 0;
+  text-align: center;
+  position: relative;
+  top: -67px;
+}
+/* line 369, scss/style.scss */
+#tab ul.uk-tab li {
+  height: 0px;
+  width: 286px;
+  float: none;
+  display: inline-block;
+  z-index: 1;
+}
+/* line 375, scss/style.scss */
+#tab ul.uk-tab li a {
+  position: relative;
+  background: #fff;
+  border: 1px solid #176c3f;
+  color: #1d7044;
+  line-height: 22px;
+  font: 300 22px/24px Roboto Slab;
+  top: 2px;
+  /* border: 0; */
+  height: 17px;
+  padding-bottom: 39px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* line 388, scss/style.scss */
+#tab ul.uk-tab li a span {
+  color: #176c3f;
+  font: 700 22px/24px Roboto Slab;
+}
+/* line 392, scss/style.scss */
+#tab ul.uk-tab li a:before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  bottom: 0px;
+  border: 20px solid transparent;
+  border-bottom: 65px solid #176c3f;
+  z-index: 1;
+}
+/* line 401, scss/style.scss */
+#tab ul.uk-tab li a:after {
+  content: '';
+  position: absolute;
+  left: 245px;
+  bottom: 0px;
+  top: -20px;
+  border: 20px solid transparent;
+  border-bottom: 63px solid #176c3f;
+}
+/* line 413, scss/style.scss */
+#tab ul.uk-tab li[aria-expanded="false"]:before {
+  content: '';
+  position: absolute;
+  left: 255px;
+  bottom: 0px;
+  top: -19px;
+  border: 20px solid transparent;
+  border-bottom: 66px solid #fff;
+  z-index: 55;
+}
+/* line 423, scss/style.scss */
+#tab ul.uk-tab li[aria-expanded="false"]:after {
+  content: '';
+  position: absolute;
+  left: -8px;
+  bottom: 0px;
+  top: -19px;
+  border: 20px solid transparent;
+  border-bottom: 66px solid #fff;
+  z-index: 55;
+}
+/* line 435, scss/style.scss */
+#tab ul.uk-tab li.uk-active.uk-text-center {
+  z-index: 2;
+}
+/* line 437, scss/style.scss */
+#tab ul.uk-tab li.uk-active.uk-text-center a {
+  position: relative;
+  background: #176c3f;
+  color: #fff;
+  top: 3px;
+  min-height: 16px;
+  font: 300 22px/24px Roboto Slab;
+  border: 1px solid #176c3f;
+}
+/* line 445, scss/style.scss */
+#tab ul.uk-tab li.uk-active.uk-text-center a span {
+  color: #fff;
+  font: 700 22px/24px Roboto Slab;
+}
+/* line 452, scss/style.scss */
+#tab .uk-container-center.uk-container {
+  width: 1024px;
+  min-height: 645px;
+  padding: 0;
+}
+/* line 456, scss/style.scss */
+#tab .uk-container-center.uk-container p.uk-h1 {
+  color: #ffc72f;
+  font: 300 36px/36px Roboto Slab;
+  margin-bottom: 82px;
+}
+/* line 460, scss/style.scss */
+#tab .uk-container-center.uk-container p.uk-h1 span {
+  color: #ffc72f;
+  font: 700 36px/36px Roboto Slab;
+}
+/* line 465, scss/style.scss */
+#tab .uk-container-center.uk-container ul.uk-clearfix {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 33px;
+}
+/* line 470, scss/style.scss */
+#tab .uk-container-center.uk-container ul.uk-clearfix li:first-child {
+  width: 138px;
+  float: left;
+  position: relative;
+  text-align: center;
+  margin-right: 57px;
+}
+/* line 476, scss/style.scss */
+#tab .uk-container-center.uk-container ul.uk-clearfix li:first-child span.date {
+  background: #ffc72f;
+  float: left;
+  width: 131px;
+  height: 36px;
+  color: #000;
+  font: 400 18px/36px Roboto Slab;
+  border-radius: 5px;
+}
+/* line 484, scss/style.scss */
+#tab .uk-container-center.uk-container ul.uk-clearfix li:first-child span.date:after {
+  content: "";
+  display: block;
+  border: 10px solid transparent;
+  border-top: 7px solid #ffc72f;
+  position: absolute;
+  left: 121px;
+  top: 0px;
+}
+/* line 494, scss/style.scss */
+#tab .uk-container-center.uk-container ul.uk-clearfix li:first-child span.time {
+  color: #90bda5;
+  font: 400 18px/22px Roboto Slab;
+  width: 131px;
+  float: left;
+}
+/* line 501, scss/style.scss */
+#tab .uk-container-center.uk-container ul.uk-clearfix li:last-child {
+  color: #ffffff;
+  font: 300 18px/22px Roboto Slab;
+  display: table;
+  margin-top: 5px;
+}
+/* line 507, scss/style.scss */
+#tab .uk-container-center.uk-container ul.uk-clearfix li p {
+  color: #abe3b4;
+  font: 300 18px/22px Roboto Slab;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+/* line 518, scss/style.scss */
+#tab ul li .uk-grid {
+  min-width: 1024px;
+  padding: 0;
+  margin: 0;
+}
+/* line 522, scss/style.scss */
+#tab ul li .uk-grid .uk-width-1-2 {
+  padding-left: 0;
+}
+/* line 524, scss/style.scss */
+#tab ul li .uk-grid .uk-width-1-2:first-child {
+  padding-right: 45px;
+  width: 512px;
+  border-right: 1px solid #6da487;
+}
+/* line 528, scss/style.scss */
+#tab ul li .uk-grid .uk-width-1-2:first-child p.uk-h2 {
+  color: #ffc72f;
+  font: 300 32px/36px Roboto Slab;
+  margin-bottom: 61px;
+}
+/* line 532, scss/style.scss */
+#tab ul li .uk-grid .uk-width-1-2:first-child p.uk-h2 span {
+  color: #ffc72f;
+  font: 700 32px/36px Roboto Slab;
+}
+/* line 537, scss/style.scss */
+#tab ul li .uk-grid .uk-width-1-2:first-child ul {
+  padding-left: 0;
+}
+/* line 540, scss/style.scss */
+#tab ul li .uk-grid .uk-width-1-2:first-child ul li:first-child {
+  width: 138px;
+  float: left;
+  position: relative;
+  margin-right: 30px;
+  text-align: center;
+}
+/* line 546, scss/style.scss */
+#tab ul li .uk-grid .uk-width-1-2:first-child ul li:first-child span.date2 {
+  width: 131px;
+  color: #fff;
+  font: 400 18px/22px Roboto Slab;
+  float: left;
+}
+/* line 552, scss/style.scss */
+#tab ul li .uk-grid .uk-width-1-2:first-child ul li:first-child span.time {
+  width: 131px;
+  color: #90bda5;
+  font: 400 18px/32px Roboto Slab;
+}
+/* line 561, scss/style.scss */
+#tab ul li .uk-grid .uk-width-1-2:last-child {
+  padding-left: 27px;
+  width: 512px;
+}
+/* line 564, scss/style.scss */
+#tab ul li .uk-grid .uk-width-1-2:last-child p.uk-h2 {
+  color: #ffc72f;
+  font: 300 32px/36px Roboto Slab;
+  margin-bottom: 61px;
+}
+/* line 568, scss/style.scss */
+#tab ul li .uk-grid .uk-width-1-2:last-child p.uk-h2 span {
+  color: #ffc72f;
+  font: 700 32px/36px Roboto Slab;
+}
+/* line 573, scss/style.scss */
+#tab ul li .uk-grid .uk-width-1-2:last-child ul {
+  padding-left: 0;
+}
+/* line 576, scss/style.scss */
+#tab ul li .uk-grid .uk-width-1-2:last-child ul li:first-child {
+  width: 138px;
+  float: left;
+  position: relative;
+  margin-right: 30px;
+  text-align: center;
+}
+/* line 582, scss/style.scss */
+#tab ul li .uk-grid .uk-width-1-2:last-child ul li:first-child span.date2 {
+  width: 131px;
+  color: #fff;
+  font: 400 18px/22px Roboto Slab;
+  float: left;
+}
+/* line 588, scss/style.scss */
+#tab ul li .uk-grid .uk-width-1-2:last-child ul li:first-child span.time {
+  width: 131px;
+  color: #90bda5;
+  font: 400 18px/32px Roboto Slab;
+}
+
+/* line 603, scss/style.scss */
+#tutorial {
+  min-height: 576px;
+  background: url(images/bg-tutorial.png) center top repeat;
+}
+/* line 607, scss/style.scss */
+#tutorial .uk-container-center .uk-h1 {
+  padding-top: 88px;
+  padding-bottom: 76px;
+  color: #333;
+  font: 700 36px/44px Roboto Slab;
+  margin: 0;
+}
+/* line 614, scss/style.scss */
+#tutorial .uk-container-center .uk-grid {
+  width: 1024px;
+}
+/* line 618, scss/style.scss */
+#tutorial .uk-container-center .uk-grid .uk-width-1-2 {
+  padding-left: 0;
+}
+/* line 619, scss/style.scss */
+#tutorial .uk-container-center .uk-grid .uk-width-1-2:last-child {
+  padding-left: 45px;
+}
+/* line 623, scss/style.scss */
+#tutorial .uk-container-center .uk-grid .uk-width-1-2 ul {
+  padding-left: 0;
+}
+/* line 625, scss/style.scss */
+#tutorial .uk-container-center .uk-grid .uk-width-1-2 ul li {
+  list-style: none;
+}
+/* line 627, scss/style.scss */
+#tutorial .uk-container-center .uk-grid .uk-width-1-2 ul li span {
+  color: #333;
+  font: 700 16px/22px Roboto Slab;
+}
+/* line 631, scss/style.scss */
+#tutorial .uk-container-center .uk-grid .uk-width-1-2 ul li p {
+  color: #333;
+  font: 300 16px/22px Roboto Slab;
+  padding-bottom: 44px;
+  margin: 0;
+}
+/* line 637, scss/style.scss */
+#tutorial .uk-container-center .uk-grid .uk-width-1-2 ul li img {
+  padding-right: 50px;
+  float: left;
+  padding-bottom: 24px;
+}
+/* line 646, scss/style.scss */
+#tutorial .uk-container-center #video {
+  width: 678px;
+  height: 609px;
+  position: relative;
+  top: -25px;
+  z-index: 10;
+}
+/* line 653, scss/style.scss */
+#tutorial .uk-container-center #video .uk-text-center a {
+  color: #0657a3;
+  font: 700 26px/22px Roboto Slab;
+  text-decoration: underline;
+  position: relative;
+  top: 30px;
+}
+/* line 663, scss/style.scss */
+#tutorial .uk-container-center .uk-text-center a {
+  color: #0657a3;
+  font: 300 26px/22px Roboto Slab;
+  text-decoration: underline;
+}
+/* line 667, scss/style.scss */
+#tutorial .uk-container-center .uk-text-center a span {
+  color: #0657a3;
+  font: 700 26px/22px Roboto Slab;
+}
+
+/* line 676, scss/style.scss */
+#form {
+  background: url(images/bg-form.png) center top repeat;
+  background-size: cover;
+  min-width: 1024px;
+  height: 812px;
+}
+/* line 681, scss/style.scss */
+#form .uk-container {
+  width: 1013px;
+  height: 588px;
+  border-radius: 20px;
+  border: 5px solid #3e8d46;
+  background: #fff;
+  position: relative;
+  top: 98px;
+  z-index: 5;
+}
+/* line 690, scss/style.scss */
+#form .uk-container .uk-grid {
+  min-width: 1024px;
+}
+/* line 692, scss/style.scss */
+#form .uk-container .uk-grid .left {
+  width: 382px;
+}
+/* line 694, scss/style.scss */
+#form .uk-container .uk-grid .left .uk-h1 {
+  color: #333;
+  font: 300 28px/36px Roboto Slab;
+  margin-top: 98px;
+  margin-bottom: 40px;
+}
+/* line 699, scss/style.scss */
+#form .uk-container .uk-grid .left .uk-h1 span {
+  color: #339933;
+  font: 700 28px/36px Roboto Slab;
+}
+/* line 704, scss/style.scss */
+#form .uk-container .uk-grid .left p {
+  color: #333;
+  font: 300 18px/36px Roboto Slab;
+  line-height: 26px;
+}
+/* line 709, scss/style.scss */
+#form .uk-container .uk-grid .left img {
+  margin-top: 20px;
+}
+/* line 712, scss/style.scss */
+#form .uk-container .uk-grid .left img.thanks {
+  margin-top: 152px;
+  margin-left: 135px;
+}
+/* line 717, scss/style.scss */
+#form .uk-container .uk-grid .right {
+  width: 450px;
+  padding-left: 80px;
+}
+/* line 720, scss/style.scss */
+#form .uk-container .uk-grid .right .uk-h1 {
+  margin-top: 55px;
+  margin-bottom: 26px;
+  color: #333;
+  font: 400 36px/24px Roboto Slab;
+}
+/* line 726, scss/style.scss */
+#form .uk-container .uk-grid .right input[type=text] {
+  width: 400px;
+  height: 45px;
+  font-size: 28px;
+}
+/* line 731, scss/style.scss */
+#form .uk-container .uk-grid .right p.uk-clearfix {
+  margin-top: 0;
+  margin-bottom: 5px;
+  width: 500px;
+  color: #333;
+  font: 400 15px/24px Roboto Slab;
+}
+/* line 738, scss/style.scss */
+#form .uk-container .uk-grid .right p.title {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 25px;
+  color: #666;
+  font: 400 16px/25px Roboto Slab;
+}
+/* line 745, scss/style.scss */
+#form .uk-container .uk-grid .right input[type=radio] {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-top: 6px;
+  padding-left: 20px;
+  float: left;
+}
+/* line 752, scss/style.scss */
+#form .uk-container .uk-grid .right a.uk-button {
+  width: 288px;
+  height: 60px;
+  background-color: #ff7e00;
+  border-radius: 28px;
+  color: #fff;
+  font: 400 20px/54px PTSans;
+  margin-top: 5px;
+}
+/* line 761, scss/style.scss */
+#form .uk-container .uk-grid .right .radio {
+  margin-top: 20px;
+  margin-left: 15px;
+}
+/* line 766, scss/style.scss */
+#form .uk-container .uk-grid .right2 {
+  width: 580px;
+}
+/* line 768, scss/style.scss */
+#form .uk-container .uk-grid .right2 p.thanks {
+  margin-top: 51px;
+  color: #000;
+  font: 300 22px/30px Roboto Slab;
+}
+/* line 773, scss/style.scss */
+#form .uk-container .uk-grid .right2 .uk-h1.thanks {
+  margin-top: 155px;
+  color: #000;
+  font: 300 40px/46px Roboto Slab;
+  margin-bottom: 0;
+}
+/* line 778, scss/style.scss */
+#form .uk-container .uk-grid .right2 .uk-h1.thanks span {
+  color: #bfe549;
+  font: 400 40px/46px Roboto Slab;
+}
+
+/* line 788, scss/style.scss */
+#recall {
+  background: url(images/bg-recall.png) top center repeat;
+  background-size: cover;
+  height: 518px;
+  min-width: 1024px;
+}
+/* line 793, scss/style.scss */
+#recall .uk-text-center.uk-h1 {
+  color: #333;
+  font: 400 36px/55px Roboto Slab;
+  padding-top: 64px;
+  margin-bottom: 85px;
+}
+/* line 799, scss/style.scss */
+#recall div[data-uk-slideshow] {
+  width: 728px;
+  height: 240px;
+  background: #fff;
+  border: 1px solid #ff7e00;
+  border-bottom: 5px solid #ff7e00;
+  padding: 0;
+  border-radius: 6px;
+}
+/* line 809, scss/style.scss */
+#recall div[data-uk-slideshow] ul li p.name {
+  background: #f9f9f9;
+  color: #246e93;
+  font: 400 18px/26px AvenirNextCyr;
+  padding-top: 30px;
+  padding-left: 34px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+/* line 818, scss/style.scss */
+#recall div[data-uk-slideshow] ul li p.text {
+  color: #515151;
+  font: 400 18px/26px Avenir Next Cyr;
+  padding-left: 32px;
+  padding-top: 36px;
+  padding-right: 50px;
+  padding-bottom: 41px;
+  margin: 0;
+}
+/* line 829, scss/style.scss */
+#recall div[data-uk-slideshow] a {
+  background-color: #ff7e00;
+}
+/* line 832, scss/style.scss */
+#recall div[data-uk-slideshow] a[data-uk-slideshow-item=next] {
+  position: relative;
+  top: -160px;
+  left: 730px;
+  color: #fff;
+}
+/* line 837, scss/style.scss */
+#recall div[data-uk-slideshow] a[data-uk-slideshow-item=next]:before {
+  position: relative;
+  top: -3px;
+  left: 3px;
+}
+/* line 843, scss/style.scss */
+#recall div[data-uk-slideshow] a[data-uk-slideshow-item=previous] {
+  position: relative;
+  top: -160px;
+  left: -135px;
+  color: #fff;
+}
+/* line 848, scss/style.scss */
+#recall div[data-uk-slideshow] a[data-uk-slideshow-item=previous]:before {
+  position: relative;
+  top: -3px;
+  left: -3px;
+}
+
+/* line 859, scss/style.scss */
+footer .uk-text-center p {
+  color: #333;
+  padding-top: 23px;
+  padding-bottom: 42px;
+  font: 400 16px/24px Roboto Slab;
+  margin: 0;
+}
+
+/* line 869, scss/style.scss */
+input[type=radio] {
+  visibility: hidden;
+  position: absolute;
+}
+
+/* line 874, scss/style.scss */
+input[type=radio] + label:before {
+  height: 12px;
+  width: 12px;
+  content: " ";
+  display: inline-block;
+  vertical-align: baseline;
+  border: 2px solid #dadada;
+}
+
+/* line 883, scss/style.scss */
+input[type=radio]:checked + label:before {
+  background: #31a246;
+  border: 2px solid #dadada;
+}
+
+/* line 888, scss/style.scss */
+input[type=radio] + label:before {
+  border-radius: 50%;
+}
+
+/* line 892, scss/style.scss */
+input[type=checkbox] + label:before {
+  border-radius: 2px;
+}
+
+/* line 898, scss/style.scss */
+label[for=first],
+label[for=second],
+label[for=third] {
+  padding-left: 0px;
+  padding-right: 16px;
+  padding-bottom: 10px;
+  float: left;
+  position: relative;
+  display: table;
+  top: 3px;
+}
