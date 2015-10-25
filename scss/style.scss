@@ -106,8 +106,8 @@ header {
 		position: absolute;
 		width: 464px;
 		height: 171px;
-left: 54%;
-    top: 25.5%;
+		left: 54%;
+		top: 25.5%;
 		margin: 0 auto;
 		border-radius: 16px 0 16px 0;
 		&:before {
@@ -794,6 +794,7 @@ left: 54%;
 					margin-bottom: 0;
 					span {
 						color: #bfe549;
+						display: block;
 						font: 400 40px / 46px Roboto Slab;
 					}
 				}

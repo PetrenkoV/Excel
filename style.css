@@ -324,7 +324,7 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
 }
 /* line 277, scss/style.scss */
 #price .uk-container .uk-grid .best {
-  box-shadow: 0px 0px 15px 0px rgba(29, 112, 68, 0.75);
+  box-shadow: 0px 0px 15px 0px rgba(29, 112, 68, 0);
   height: 479px;
   width: 346px;
   background: url(images/best.png) top right no-repeat white;
@@ -910,24 +910,25 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
 /* line 795, scss/style.scss */
 #form .uk-container .uk-grid .right2 .uk-h1.thanks span {
   color: #bfe549;
+  display: block;
   font: 400 40px/46px Roboto Slab;
 }
 
-/* line 805, scss/style.scss */
+/* line 806, scss/style.scss */
 #recall {
   background: url(images/bg-recall.png) top center repeat;
   background-size: cover;
   height: 518px;
   min-width: 1024px;
 }
-/* line 810, scss/style.scss */
+/* line 811, scss/style.scss */
 #recall .uk-text-center.uk-h1 {
   color: #333;
   font: 400 36px/55px Roboto Slab;
   padding-top: 64px;
   margin-bottom: 85px;
 }
-/* line 816, scss/style.scss */
+/* line 817, scss/style.scss */
 #recall div[data-uk-slideshow] {
   width: 728px;
   height: 240px;
@@ -937,7 +938,7 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   padding: 0;
   border-radius: 6px;
 }
-/* line 826, scss/style.scss */
+/* line 827, scss/style.scss */
 #recall div[data-uk-slideshow] ul li p.name {
   background: #f9f9f9;
   color: #246e93;
@@ -947,7 +948,7 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   padding-bottom: 20px;
   margin: 0;
 }
-/* line 835, scss/style.scss */
+/* line 836, scss/style.scss */
 #recall div[data-uk-slideshow] ul li p.text {
   color: #515151;
   font: 400 18px/22px Avenir Next Cyr;
@@ -958,38 +959,38 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   margin: 0;
   text-align: justify;
 }
-/* line 847, scss/style.scss */
+/* line 848, scss/style.scss */
 #recall div[data-uk-slideshow] a {
   background-color: #ff7e00;
 }
-/* line 850, scss/style.scss */
+/* line 851, scss/style.scss */
 #recall div[data-uk-slideshow] a[data-uk-slideshow-item=next] {
   position: relative;
   top: -160px;
   left: 730px;
   color: #fff;
 }
-/* line 855, scss/style.scss */
+/* line 856, scss/style.scss */
 #recall div[data-uk-slideshow] a[data-uk-slideshow-item=next]:before {
   position: relative;
   top: -3px;
   left: 3px;
 }
-/* line 861, scss/style.scss */
+/* line 862, scss/style.scss */
 #recall div[data-uk-slideshow] a[data-uk-slideshow-item=previous] {
   position: relative;
   top: -160px;
   left: -135px;
   color: #fff;
 }
-/* line 866, scss/style.scss */
+/* line 867, scss/style.scss */
 #recall div[data-uk-slideshow] a[data-uk-slideshow-item=previous]:before {
   position: relative;
   top: -3px;
   left: -3px;
 }
 
-/* line 877, scss/style.scss */
+/* line 878, scss/style.scss */
 footer .uk-text-center p {
   color: #333;
   padding-top: 23px;
@@ -998,13 +999,13 @@ footer .uk-text-center p {
   margin: 0;
 }
 
-/* line 887, scss/style.scss */
+/* line 888, scss/style.scss */
 input[type=radio] {
   visibility: hidden;
   position: absolute;
 }
 
-/* line 892, scss/style.scss */
+/* line 893, scss/style.scss */
 input[type=radio] + label:before {
   height: 12px;
   width: 12px;
@@ -1014,23 +1015,23 @@ input[type=radio] + label:before {
   border: 2px solid #dadada;
 }
 
-/* line 901, scss/style.scss */
+/* line 902, scss/style.scss */
 input[type=radio]:checked + label:before {
   background: #31a246;
   border: 2px solid #dadada;
 }
 
-/* line 906, scss/style.scss */
+/* line 907, scss/style.scss */
 input[type=radio] + label:before {
   border-radius: 50%;
 }
 
-/* line 910, scss/style.scss */
+/* line 911, scss/style.scss */
 input[type=checkbox] + label:before {
   border-radius: 2px;
 }
 
-/* line 916, scss/style.scss */
+/* line 917, scss/style.scss */
 label[for=first],
 label[for=second],
 label[for=third] {
