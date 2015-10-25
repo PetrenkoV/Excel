@@ -97,30 +97,40 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
 #slide-excel .uk-text-center {
   min-width: 1024px;
   height: 493px;
+  position: relative;
   background: url(images/bg-slide.png) no-repeat top center #f4f4f4;
 }
-/* line 86, scss/style.scss */
+/* line 87, scss/style.scss */
 #slide-excel .uk-text-center p {
-  padding-top: 65px;
+  padding-top: 0px;
   color: #333;
+  margin: 0;
   font: 300 16px/22px Roboto Slab;
 }
-/* line 91, scss/style.scss */
+/* line 93, scss/style.scss */
+#slide-excel .uk-text-center p.top {
+  padding-top: 65px;
+  color: #333;
+  margin: 0;
+  font: 300 16px/22px Roboto Slab;
+}
+/* line 99, scss/style.scss */
 #slide-excel .uk-text-center img {
   min-width: 1024px;
   max-width: 1680px;
 }
-/* line 96, scss/style.scss */
+/* line 104, scss/style.scss */
 #slide-excel .green {
   background-color: #1d7044;
-  position: relative;
+  position: absolute;
   width: 464px;
   height: 171px;
-  left: 277px;
+  left: 54%;
+  top: 25.5%;
   margin: 0 auto;
   border-radius: 16px 0 16px 0;
 }
-/* line 104, scss/style.scss */
+/* line 113, scss/style.scss */
 #slide-excel .green:before {
   border: 20px solid transparent;
   border-bottom: 30px solid #1d7044;
@@ -129,46 +139,46 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   top: 121px;
   left: -18px;
 }
-/* line 112, scss/style.scss */
-#slide-excel .green span {
+/* line 121, scss/style.scss */
+#slide-excel .green p {
   color: #fff;
   font: 300 24px/34px Roboto Slab;
   padding-top: 30px;
   display: block;
 }
-/* line 118, scss/style.scss */
+/* line 127, scss/style.scss */
 #slide-excel .green span.bold {
   padding-top: 0px;
   color: #fff;
   font: 700 36px/42px Roboto Slab;
 }
 
-/* line 126, scss/style.scss */
+/* line 135, scss/style.scss */
 #course {
-  background: url(images/bg-course.png) center center no-repeat;
-  background-size: cover;
+  background: url(images/bg-course.png) 100% no-repeat;
   height: 670px;
 }
-/* line 130, scss/style.scss */
+/* line 139, scss/style.scss */
 #course .uk-container-center {
   max-width: 1024px;
+  position: relative;
 }
-/* line 132, scss/style.scss */
+/* line 142, scss/style.scss */
 #course .uk-container-center .uk-container {
   width: 512px;
 }
-/* line 134, scss/style.scss */
+/* line 144, scss/style.scss */
 #course .uk-container-center .uk-container .uk-h1 {
   padding-top: 94px;
   color: #333;
   font: 400 36px/22px Roboto Slab;
   margin-bottom: 74px;
 }
-/* line 140, scss/style.scss */
+/* line 150, scss/style.scss */
 #course .uk-container-center .uk-container ul {
   padding-left: 0;
 }
-/* line 142, scss/style.scss */
+/* line 152, scss/style.scss */
 #course .uk-container-center .uk-container ul li {
   background: url(images/tick.png) no-repeat 0% 8%;
   list-style: none;
@@ -177,23 +187,23 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   padding-left: 41px;
   margin-bottom: 25px;
 }
-/* line 149, scss/style.scss */
+/* line 159, scss/style.scss */
 #course .uk-container-center .uk-container ul li span {
   color: #4b4b4b;
   font: 700 14px/24px Roboto Slab;
 }
-/* line 156, scss/style.scss */
+/* line 166, scss/style.scss */
 #course .uk-container-center .green {
   background-color: #1d7044;
-  position: relative;
+  position: absolute;
   width: 686px;
   height: 126px;
-  top: 15px;
-  left: 270px;
+  bottom: -26.5%;
+  left: 40%;
   margin: 0 auto;
   border-radius: 16px 0 16px 0;
 }
-/* line 165, scss/style.scss */
+/* line 175, scss/style.scss */
 #course .uk-container-center .green:before {
   border: 20px solid transparent;
   border-right: 30px solid #1d7044;
@@ -202,31 +212,31 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   top: -15px;
   right: 0;
 }
-/* line 173, scss/style.scss */
+/* line 183, scss/style.scss */
 #course .uk-container-center .green span {
   color: #fff;
   font: 300 24px/34px Roboto Slab;
   padding-top: 20px;
   display: block;
 }
-/* line 179, scss/style.scss */
+/* line 189, scss/style.scss */
 #course .uk-container-center .green span.bold {
   padding-top: 0;
   color: #fff;
   font: 700 36px/34px Roboto Slab;
 }
 
-/* line 188, scss/style.scss */
+/* line 198, scss/style.scss */
 #price {
   background-color: #f5f5f5;
   height: 807px;
 }
-/* line 191, scss/style.scss */
+/* line 201, scss/style.scss */
 #price .uk-container {
   background-color: #f5f5f5;
   max-width: 1024px;
 }
-/* line 194, scss/style.scss */
+/* line 204, scss/style.scss */
 #price .uk-container .uk-grid {
   background-color: #f5f5f5;
   position: absolute;
@@ -234,7 +244,7 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   width: 1024px;
   z-index: 1;
 }
-/* line 200, scss/style.scss */
+/* line 210, scss/style.scss */
 #price .uk-container .uk-grid .uk-width-1-3 {
   padding-left: 0;
   border: 1px solid #1d7044;
@@ -242,7 +252,7 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   height: 400px;
   width: 339px;
 }
-/* line 206, scss/style.scss */
+/* line 216, scss/style.scss */
 #price .uk-container .uk-grid .uk-width-1-3 span.course {
   border-right: 1px solid #1d7044;
   border-bottom: 1px solid #1d7044;
@@ -254,27 +264,27 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   padding-top: 10px;
   line-height: 23px;
 }
-/* line 217, scss/style.scss */
+/* line 227, scss/style.scss */
 #price .uk-container .uk-grid .uk-width-1-3 .uk-h1 {
   color: #333;
   font: 700 20px/30px Roboto Slab;
   margin-top: 10px;
 }
-/* line 222, scss/style.scss */
+/* line 232, scss/style.scss */
 #price .uk-container .uk-grid .uk-width-1-3:last-child {
   border: 0;
 }
-/* line 226, scss/style.scss */
+/* line 236, scss/style.scss */
 #price .uk-container .uk-grid .uk-width-1-3 .inside {
   border-top: 1px solid #1d7044;
   width: 196px;
 }
-/* line 229, scss/style.scss */
+/* line 239, scss/style.scss */
 #price .uk-container .uk-grid .uk-width-1-3 .inside ul {
   padding-left: 0;
   margin-bottom: 0;
 }
-/* line 232, scss/style.scss */
+/* line 242, scss/style.scss */
 #price .uk-container .uk-grid .uk-width-1-3 .inside ul li {
   float: left;
   padding-top: 10px;
@@ -283,22 +293,22 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   font: 300 14px/35.887px Roboto Slab;
   clear: both;
 }
-/* line 239, scss/style.scss */
+/* line 249, scss/style.scss */
 #price .uk-container .uk-grid .uk-width-1-3 .inside ul li img {
   padding-right: 20px;
 }
-/* line 242, scss/style.scss */
+/* line 252, scss/style.scss */
 #price .uk-container .uk-grid .uk-width-1-3 .inside ul li:first-child {
   padding-top: 20px;
 }
-/* line 247, scss/style.scss */
+/* line 257, scss/style.scss */
 #price .uk-container .uk-grid .uk-width-1-3 .inside p {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;
   color: #1d7044;
   font: 300 30px/35.887px Roboto Slab;
 }
-/* line 253, scss/style.scss */
+/* line 263, scss/style.scss */
 #price .uk-container .uk-grid .uk-width-1-3 .inside a.green {
   width: 144px;
   height: 42px;
@@ -307,12 +317,12 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   color: #fff;
   font: 700 20px/35.887px Roboto Slab;
 }
-/* line 260, scss/style.scss */
+/* line 270, scss/style.scss */
 #price .uk-container .uk-grid .uk-width-1-3 .inside a.green span {
   position: relative;
   top: 2px;
 }
-/* line 267, scss/style.scss */
+/* line 277, scss/style.scss */
 #price .uk-container .uk-grid .best {
   box-shadow: 0px 0px 15px 0px rgba(29, 112, 68, 0.75);
   height: 479px;
@@ -322,35 +332,35 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   z-index: 5;
   top: -40px;
 }
-/* line 275, scss/style.scss */
+/* line 285, scss/style.scss */
 #price .uk-container .uk-grid .best .uk-h1 {
   margin-top: 63px;
   color: #1d7044;
   font: 300 25.92px/35.887px Roboto Slab;
 }
-/* line 279, scss/style.scss */
+/* line 289, scss/style.scss */
 #price .uk-container .uk-grid .best .uk-h1 span.bold {
   color: #1d7044;
   font: 700 29.91px/35.887px Roboto Slab;
 }
-/* line 284, scss/style.scss */
+/* line 294, scss/style.scss */
 #price .uk-container .uk-grid .best p.through {
   text-decoration: line-through;
   color: #333;
   font: 400 22px/64px Roboto Slab;
   margin-bottom: 0;
   height: 52px;
-  margin-top: -15px;
-  margin-bottom: -15px;
+  margin-top: 0px;
+  margin-bottom: -5px;
 }
-/* line 293, scss/style.scss */
+/* line 303, scss/style.scss */
 #price .uk-container .uk-grid .best p.bolder {
   margin-top: 0;
   color: #1d7044;
   font: 700 30px/35.887px Roboto Slab;
   font-weight: 700;
 }
-/* line 299, scss/style.scss */
+/* line 309, scss/style.scss */
 #price .uk-container .uk-grid .best p.economy {
   color: #ff7e00;
   font: 700 18px/35.887px Ubuntu;
@@ -359,7 +369,7 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   left: -30px;
   margin-top: 10px;
 }
-/* line 307, scss/style.scss */
+/* line 317, scss/style.scss */
 #price .uk-container .uk-grid .best a.orange {
   width: 218px;
   height: 56px;
@@ -370,40 +380,44 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   color: #fff;
   font: 700 26px/35.887px Roboto Slab;
 }
-/* line 316, scss/style.scss */
+/* line 326, scss/style.scss */
 #price .uk-container .uk-grid .best a.orange span {
   position: relative;
   top: 10px;
 }
-/* line 324, scss/style.scss */
+/* line 334, scss/style.scss */
 #price .title {
   color: #333;
   font: 400 36px/44px Roboto Slab;
   padding-top: 83px;
   padding-bottom: 99px;
 }
-/* line 329, scss/style.scss */
+/* line 339, scss/style.scss */
 #price .title span {
   color: #333;
   font: 700 36px/44px Roboto Slab;
 }
+/* line 343, scss/style.scss */
+#price .title p {
+  margin: 0;
+}
 
-/* line 337, scss/style.scss */
+/* line 350, scss/style.scss */
 #program .uk-container {
   width: 1024px;
   margin-top: 74px;
 }
-/* line 340, scss/style.scss */
+/* line 353, scss/style.scss */
 #program .uk-container p {
   color: #333;
   font: 400 36px/24px Roboto Slab;
   margin-bottom: 35px;
 }
-/* line 345, scss/style.scss */
+/* line 358, scss/style.scss */
 #program .uk-container .uk-float-right.uk-width-1-4 {
   width: 220px;
 }
-/* line 347, scss/style.scss */
+/* line 360, scss/style.scss */
 #program .uk-container .uk-float-right.uk-width-1-4 span {
   position: relative;
   top: -4px;
@@ -411,24 +425,24 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   font: 400 18px/24px Roboto Slab;
   float: right;
 }
-/* line 354, scss/style.scss */
+/* line 367, scss/style.scss */
 #program .uk-container .uk-float-right.uk-width-1-4 img {
   padding-bottom: 78px;
 }
 
-/* line 361, scss/style.scss */
+/* line 374, scss/style.scss */
 #tab {
   background: url(images/bg-tab.png);
   min-height: 645px;
 }
-/* line 364, scss/style.scss */
+/* line 377, scss/style.scss */
 #tab ul.uk-tab {
   border-bottom: 0;
   text-align: center;
   position: relative;
   top: -67px;
 }
-/* line 369, scss/style.scss */
+/* line 382, scss/style.scss */
 #tab ul.uk-tab li {
   height: 0px;
   width: 286px;
@@ -436,7 +450,7 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   display: inline-block;
   z-index: 1;
 }
-/* line 375, scss/style.scss */
+/* line 388, scss/style.scss */
 #tab ul.uk-tab li a {
   position: relative;
   background: #fff;
@@ -451,12 +465,12 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   margin-left: 10px;
   margin-right: 10px;
 }
-/* line 388, scss/style.scss */
+/* line 401, scss/style.scss */
 #tab ul.uk-tab li a span {
   color: #176c3f;
   font: 700 22px/24px Roboto Slab;
 }
-/* line 392, scss/style.scss */
+/* line 405, scss/style.scss */
 #tab ul.uk-tab li a:before {
   content: '';
   position: absolute;
@@ -466,7 +480,7 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   border-bottom: 65px solid #176c3f;
   z-index: 1;
 }
-/* line 401, scss/style.scss */
+/* line 414, scss/style.scss */
 #tab ul.uk-tab li a:after {
   content: '';
   position: absolute;
@@ -476,7 +490,7 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   border: 20px solid transparent;
   border-bottom: 63px solid #176c3f;
 }
-/* line 413, scss/style.scss */
+/* line 426, scss/style.scss */
 #tab ul.uk-tab li[aria-expanded="false"]:before {
   content: '';
   position: absolute;
@@ -487,7 +501,7 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   border-bottom: 66px solid #fff;
   z-index: 55;
 }
-/* line 423, scss/style.scss */
+/* line 436, scss/style.scss */
 #tab ul.uk-tab li[aria-expanded="false"]:after {
   content: '';
   position: absolute;
@@ -498,11 +512,11 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   border-bottom: 66px solid #fff;
   z-index: 55;
 }
-/* line 435, scss/style.scss */
+/* line 448, scss/style.scss */
 #tab ul.uk-tab li.uk-active.uk-text-center {
   z-index: 2;
 }
-/* line 437, scss/style.scss */
+/* line 450, scss/style.scss */
 #tab ul.uk-tab li.uk-active.uk-text-center a {
   position: relative;
   background: #176c3f;
@@ -512,35 +526,37 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   font: 300 22px/24px Roboto Slab;
   border: 1px solid #176c3f;
 }
-/* line 445, scss/style.scss */
+/* line 458, scss/style.scss */
 #tab ul.uk-tab li.uk-active.uk-text-center a span {
   color: #fff;
   font: 700 22px/24px Roboto Slab;
 }
-/* line 452, scss/style.scss */
+/* line 465, scss/style.scss */
 #tab .uk-container-center.uk-container {
   width: 1024px;
   min-height: 645px;
   padding: 0;
 }
-/* line 456, scss/style.scss */
+/* line 469, scss/style.scss */
 #tab .uk-container-center.uk-container p.uk-h1 {
   color: #ffc72f;
+  margin: 0;
   font: 300 36px/36px Roboto Slab;
-  margin-bottom: 82px;
 }
-/* line 460, scss/style.scss */
-#tab .uk-container-center.uk-container p.uk-h1 span {
+/* line 474, scss/style.scss */
+#tab .uk-container-center.uk-container span.title {
+  margin-bottom: 82px;
   color: #ffc72f;
+  display: block;
   font: 700 36px/36px Roboto Slab;
 }
-/* line 465, scss/style.scss */
+/* line 480, scss/style.scss */
 #tab .uk-container-center.uk-container ul.uk-clearfix {
   list-style: none;
   padding-left: 0;
   margin-bottom: 33px;
 }
-/* line 470, scss/style.scss */
+/* line 485, scss/style.scss */
 #tab .uk-container-center.uk-container ul.uk-clearfix li:first-child {
   width: 138px;
   float: left;
@@ -548,7 +564,7 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   text-align: center;
   margin-right: 57px;
 }
-/* line 476, scss/style.scss */
+/* line 491, scss/style.scss */
 #tab .uk-container-center.uk-container ul.uk-clearfix li:first-child span.date {
   background: #ffc72f;
   float: left;
@@ -558,7 +574,7 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   font: 400 18px/36px Roboto Slab;
   border-radius: 5px;
 }
-/* line 484, scss/style.scss */
+/* line 499, scss/style.scss */
 #tab .uk-container-center.uk-container ul.uk-clearfix li:first-child span.date:after {
   content: "";
   display: block;
@@ -568,59 +584,60 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   left: 121px;
   top: 0px;
 }
-/* line 494, scss/style.scss */
+/* line 509, scss/style.scss */
 #tab .uk-container-center.uk-container ul.uk-clearfix li:first-child span.time {
   color: #90bda5;
   font: 400 18px/22px Roboto Slab;
   width: 131px;
   float: left;
 }
-/* line 501, scss/style.scss */
+/* line 516, scss/style.scss */
 #tab .uk-container-center.uk-container ul.uk-clearfix li:last-child {
   color: #ffffff;
   font: 300 18px/22px Roboto Slab;
   display: table;
   margin-top: 5px;
 }
-/* line 507, scss/style.scss */
+/* line 522, scss/style.scss */
 #tab .uk-container-center.uk-container ul.uk-clearfix li p {
   color: #abe3b4;
   font: 300 18px/22px Roboto Slab;
   margin-top: 20px;
   margin-bottom: 0px;
 }
-/* line 518, scss/style.scss */
+/* line 533, scss/style.scss */
 #tab ul li .uk-grid {
   min-width: 1024px;
   padding: 0;
   margin: 0;
 }
-/* line 522, scss/style.scss */
+/* line 537, scss/style.scss */
 #tab ul li .uk-grid .uk-width-1-2 {
   padding-left: 0;
 }
-/* line 524, scss/style.scss */
+/* line 539, scss/style.scss */
 #tab ul li .uk-grid .uk-width-1-2:first-child {
   padding-right: 45px;
   width: 512px;
   border-right: 1px solid #6da487;
 }
-/* line 528, scss/style.scss */
+/* line 543, scss/style.scss */
 #tab ul li .uk-grid .uk-width-1-2:first-child p.uk-h2 {
   color: #ffc72f;
   font: 300 32px/36px Roboto Slab;
-  margin-bottom: 61px;
 }
-/* line 532, scss/style.scss */
+/* line 546, scss/style.scss */
 #tab ul li .uk-grid .uk-width-1-2:first-child p.uk-h2 span {
   color: #ffc72f;
+  margin-bottom: 61px;
+  display: block;
   font: 700 32px/36px Roboto Slab;
 }
-/* line 537, scss/style.scss */
+/* line 553, scss/style.scss */
 #tab ul li .uk-grid .uk-width-1-2:first-child ul {
   padding-left: 0;
 }
-/* line 540, scss/style.scss */
+/* line 556, scss/style.scss */
 #tab ul li .uk-grid .uk-width-1-2:first-child ul li:first-child {
   width: 138px;
   float: left;
@@ -628,40 +645,40 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   margin-right: 30px;
   text-align: center;
 }
-/* line 546, scss/style.scss */
+/* line 562, scss/style.scss */
 #tab ul li .uk-grid .uk-width-1-2:first-child ul li:first-child span.date2 {
   width: 131px;
   color: #fff;
   font: 400 18px/22px Roboto Slab;
   float: left;
 }
-/* line 552, scss/style.scss */
+/* line 568, scss/style.scss */
 #tab ul li .uk-grid .uk-width-1-2:first-child ul li:first-child span.time {
   width: 131px;
   color: #90bda5;
   font: 400 18px/32px Roboto Slab;
 }
-/* line 561, scss/style.scss */
+/* line 577, scss/style.scss */
 #tab ul li .uk-grid .uk-width-1-2:last-child {
   padding-left: 27px;
   width: 512px;
 }
-/* line 564, scss/style.scss */
+/* line 580, scss/style.scss */
 #tab ul li .uk-grid .uk-width-1-2:last-child p.uk-h2 {
   color: #ffc72f;
   font: 300 32px/36px Roboto Slab;
   margin-bottom: 61px;
 }
-/* line 568, scss/style.scss */
+/* line 584, scss/style.scss */
 #tab ul li .uk-grid .uk-width-1-2:last-child p.uk-h2 span {
   color: #ffc72f;
   font: 700 32px/36px Roboto Slab;
 }
-/* line 573, scss/style.scss */
+/* line 589, scss/style.scss */
 #tab ul li .uk-grid .uk-width-1-2:last-child ul {
   padding-left: 0;
 }
-/* line 576, scss/style.scss */
+/* line 592, scss/style.scss */
 #tab ul li .uk-grid .uk-width-1-2:last-child ul li:first-child {
   width: 138px;
   float: left;
@@ -669,26 +686,26 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   margin-right: 30px;
   text-align: center;
 }
-/* line 582, scss/style.scss */
+/* line 598, scss/style.scss */
 #tab ul li .uk-grid .uk-width-1-2:last-child ul li:first-child span.date2 {
   width: 131px;
   color: #fff;
   font: 400 18px/22px Roboto Slab;
   float: left;
 }
-/* line 588, scss/style.scss */
+/* line 604, scss/style.scss */
 #tab ul li .uk-grid .uk-width-1-2:last-child ul li:first-child span.time {
   width: 131px;
   color: #90bda5;
   font: 400 18px/32px Roboto Slab;
 }
 
-/* line 603, scss/style.scss */
+/* line 619, scss/style.scss */
 #tutorial {
   min-height: 576px;
   background: url(images/bg-tutorial.png) center top repeat;
 }
-/* line 607, scss/style.scss */
+/* line 623, scss/style.scss */
 #tutorial .uk-container-center .uk-h1 {
   padding-top: 88px;
   padding-bottom: 76px;
@@ -696,45 +713,45 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   font: 700 36px/44px Roboto Slab;
   margin: 0;
 }
-/* line 614, scss/style.scss */
+/* line 630, scss/style.scss */
 #tutorial .uk-container-center .uk-grid {
   width: 1024px;
 }
-/* line 618, scss/style.scss */
+/* line 634, scss/style.scss */
 #tutorial .uk-container-center .uk-grid .uk-width-1-2 {
   padding-left: 0;
 }
-/* line 619, scss/style.scss */
+/* line 635, scss/style.scss */
 #tutorial .uk-container-center .uk-grid .uk-width-1-2:last-child {
   padding-left: 45px;
 }
-/* line 623, scss/style.scss */
+/* line 639, scss/style.scss */
 #tutorial .uk-container-center .uk-grid .uk-width-1-2 ul {
   padding-left: 0;
 }
-/* line 625, scss/style.scss */
+/* line 641, scss/style.scss */
 #tutorial .uk-container-center .uk-grid .uk-width-1-2 ul li {
   list-style: none;
 }
-/* line 627, scss/style.scss */
+/* line 643, scss/style.scss */
 #tutorial .uk-container-center .uk-grid .uk-width-1-2 ul li span {
   color: #333;
   font: 700 16px/22px Roboto Slab;
 }
-/* line 631, scss/style.scss */
+/* line 647, scss/style.scss */
 #tutorial .uk-container-center .uk-grid .uk-width-1-2 ul li p {
   color: #333;
   font: 300 16px/22px Roboto Slab;
   padding-bottom: 44px;
   margin: 0;
 }
-/* line 637, scss/style.scss */
+/* line 653, scss/style.scss */
 #tutorial .uk-container-center .uk-grid .uk-width-1-2 ul li img {
   padding-right: 50px;
   float: left;
   padding-bottom: 24px;
 }
-/* line 646, scss/style.scss */
+/* line 662, scss/style.scss */
 #tutorial .uk-container-center #video {
   width: 678px;
   height: 609px;
@@ -742,7 +759,7 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   top: -25px;
   z-index: 10;
 }
-/* line 653, scss/style.scss */
+/* line 669, scss/style.scss */
 #tutorial .uk-container-center #video .uk-text-center a {
   color: #0657a3;
   font: 700 26px/22px Roboto Slab;
@@ -750,26 +767,26 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   position: relative;
   top: 30px;
 }
-/* line 663, scss/style.scss */
+/* line 679, scss/style.scss */
 #tutorial .uk-container-center .uk-text-center a {
   color: #0657a3;
   font: 300 26px/22px Roboto Slab;
   text-decoration: underline;
 }
-/* line 667, scss/style.scss */
+/* line 683, scss/style.scss */
 #tutorial .uk-container-center .uk-text-center a span {
   color: #0657a3;
   font: 700 26px/22px Roboto Slab;
 }
 
-/* line 676, scss/style.scss */
+/* line 692, scss/style.scss */
 #form {
   background: url(images/bg-form.png) center top repeat;
   background-size: cover;
   min-width: 1024px;
   height: 812px;
 }
-/* line 681, scss/style.scss */
+/* line 697, scss/style.scss */
 #form .uk-container {
   width: 1013px;
   height: 588px;
@@ -780,60 +797,61 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   top: 98px;
   z-index: 5;
 }
-/* line 690, scss/style.scss */
+/* line 706, scss/style.scss */
 #form .uk-container .uk-grid {
   min-width: 1024px;
 }
-/* line 692, scss/style.scss */
+/* line 708, scss/style.scss */
 #form .uk-container .uk-grid .left {
   width: 382px;
 }
-/* line 694, scss/style.scss */
+/* line 710, scss/style.scss */
 #form .uk-container .uk-grid .left .uk-h1 {
   color: #333;
   font: 300 28px/36px Roboto Slab;
   margin-top: 98px;
   margin-bottom: 40px;
 }
-/* line 699, scss/style.scss */
+/* line 715, scss/style.scss */
 #form .uk-container .uk-grid .left .uk-h1 span {
   color: #339933;
   font: 700 28px/36px Roboto Slab;
+  display: block;
 }
-/* line 704, scss/style.scss */
+/* line 721, scss/style.scss */
 #form .uk-container .uk-grid .left p {
   color: #333;
   font: 300 18px/36px Roboto Slab;
   line-height: 26px;
 }
-/* line 709, scss/style.scss */
+/* line 726, scss/style.scss */
 #form .uk-container .uk-grid .left img {
   margin-top: 20px;
 }
-/* line 712, scss/style.scss */
+/* line 729, scss/style.scss */
 #form .uk-container .uk-grid .left img.thanks {
   margin-top: 152px;
   margin-left: 135px;
 }
-/* line 717, scss/style.scss */
+/* line 734, scss/style.scss */
 #form .uk-container .uk-grid .right {
   width: 450px;
   padding-left: 80px;
 }
-/* line 720, scss/style.scss */
+/* line 737, scss/style.scss */
 #form .uk-container .uk-grid .right .uk-h1 {
   margin-top: 55px;
   margin-bottom: 26px;
   color: #333;
   font: 400 36px/24px Roboto Slab;
 }
-/* line 726, scss/style.scss */
+/* line 743, scss/style.scss */
 #form .uk-container .uk-grid .right input[type=text] {
   width: 400px;
   height: 45px;
   font-size: 28px;
 }
-/* line 731, scss/style.scss */
+/* line 748, scss/style.scss */
 #form .uk-container .uk-grid .right p.uk-clearfix {
   margin-top: 0;
   margin-bottom: 5px;
@@ -841,7 +859,7 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   color: #333;
   font: 400 15px/24px Roboto Slab;
 }
-/* line 738, scss/style.scss */
+/* line 755, scss/style.scss */
 #form .uk-container .uk-grid .right p.title {
   margin-top: 0;
   margin-bottom: 0;
@@ -849,7 +867,7 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   color: #666;
   font: 400 16px/25px Roboto Slab;
 }
-/* line 745, scss/style.scss */
+/* line 762, scss/style.scss */
 #form .uk-container .uk-grid .right input[type=radio] {
   margin-bottom: 10px;
   margin-right: 10px;
@@ -857,7 +875,7 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   padding-left: 20px;
   float: left;
 }
-/* line 752, scss/style.scss */
+/* line 769, scss/style.scss */
 #form .uk-container .uk-grid .right a.uk-button {
   width: 288px;
   height: 60px;
@@ -867,49 +885,49 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   font: 400 20px/54px PTSans;
   margin-top: 5px;
 }
-/* line 761, scss/style.scss */
+/* line 778, scss/style.scss */
 #form .uk-container .uk-grid .right .radio {
   margin-top: 20px;
   margin-left: 15px;
 }
-/* line 766, scss/style.scss */
+/* line 783, scss/style.scss */
 #form .uk-container .uk-grid .right2 {
   width: 580px;
 }
-/* line 768, scss/style.scss */
+/* line 785, scss/style.scss */
 #form .uk-container .uk-grid .right2 p.thanks {
   margin-top: 51px;
   color: #000;
   font: 300 22px/30px Roboto Slab;
 }
-/* line 773, scss/style.scss */
+/* line 790, scss/style.scss */
 #form .uk-container .uk-grid .right2 .uk-h1.thanks {
   margin-top: 155px;
   color: #000;
   font: 300 40px/46px Roboto Slab;
   margin-bottom: 0;
 }
-/* line 778, scss/style.scss */
+/* line 795, scss/style.scss */
 #form .uk-container .uk-grid .right2 .uk-h1.thanks span {
   color: #bfe549;
   font: 400 40px/46px Roboto Slab;
 }
 
-/* line 788, scss/style.scss */
+/* line 805, scss/style.scss */
 #recall {
   background: url(images/bg-recall.png) top center repeat;
   background-size: cover;
   height: 518px;
   min-width: 1024px;
 }
-/* line 793, scss/style.scss */
+/* line 810, scss/style.scss */
 #recall .uk-text-center.uk-h1 {
   color: #333;
   font: 400 36px/55px Roboto Slab;
   padding-top: 64px;
   margin-bottom: 85px;
 }
-/* line 799, scss/style.scss */
+/* line 816, scss/style.scss */
 #recall div[data-uk-slideshow] {
   width: 728px;
   height: 240px;
@@ -919,7 +937,7 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   padding: 0;
   border-radius: 6px;
 }
-/* line 809, scss/style.scss */
+/* line 826, scss/style.scss */
 #recall div[data-uk-slideshow] ul li p.name {
   background: #f9f9f9;
   color: #246e93;
@@ -929,48 +947,49 @@ header .uk-container-center.uk-clearfix img.uk-align-center {
   padding-bottom: 20px;
   margin: 0;
 }
-/* line 818, scss/style.scss */
+/* line 835, scss/style.scss */
 #recall div[data-uk-slideshow] ul li p.text {
   color: #515151;
-  font: 400 18px/26px Avenir Next Cyr;
+  font: 400 18px/22px Avenir Next Cyr;
   padding-left: 32px;
   padding-top: 36px;
   padding-right: 50px;
   padding-bottom: 41px;
   margin: 0;
+  text-align: justify;
 }
-/* line 829, scss/style.scss */
+/* line 847, scss/style.scss */
 #recall div[data-uk-slideshow] a {
   background-color: #ff7e00;
 }
-/* line 832, scss/style.scss */
+/* line 850, scss/style.scss */
 #recall div[data-uk-slideshow] a[data-uk-slideshow-item=next] {
   position: relative;
   top: -160px;
   left: 730px;
   color: #fff;
 }
-/* line 837, scss/style.scss */
+/* line 855, scss/style.scss */
 #recall div[data-uk-slideshow] a[data-uk-slideshow-item=next]:before {
   position: relative;
   top: -3px;
   left: 3px;
 }
-/* line 843, scss/style.scss */
+/* line 861, scss/style.scss */
 #recall div[data-uk-slideshow] a[data-uk-slideshow-item=previous] {
   position: relative;
   top: -160px;
   left: -135px;
   color: #fff;
 }
-/* line 848, scss/style.scss */
+/* line 866, scss/style.scss */
 #recall div[data-uk-slideshow] a[data-uk-slideshow-item=previous]:before {
   position: relative;
   top: -3px;
   left: -3px;
 }
 
-/* line 859, scss/style.scss */
+/* line 877, scss/style.scss */
 footer .uk-text-center p {
   color: #333;
   padding-top: 23px;
@@ -979,13 +998,13 @@ footer .uk-text-center p {
   margin: 0;
 }
 
-/* line 869, scss/style.scss */
+/* line 887, scss/style.scss */
 input[type=radio] {
   visibility: hidden;
   position: absolute;
 }
 
-/* line 874, scss/style.scss */
+/* line 892, scss/style.scss */
 input[type=radio] + label:before {
   height: 12px;
   width: 12px;
@@ -995,23 +1014,23 @@ input[type=radio] + label:before {
   border: 2px solid #dadada;
 }
 
-/* line 883, scss/style.scss */
+/* line 901, scss/style.scss */
 input[type=radio]:checked + label:before {
   background: #31a246;
   border: 2px solid #dadada;
 }
 
-/* line 888, scss/style.scss */
+/* line 906, scss/style.scss */
 input[type=radio] + label:before {
   border-radius: 50%;
 }
 
-/* line 892, scss/style.scss */
+/* line 910, scss/style.scss */
 input[type=checkbox] + label:before {
   border-radius: 2px;
 }
 
-/* line 898, scss/style.scss */
+/* line 916, scss/style.scss */
 label[for=first],
 label[for=second],
 label[for=third] {
